@@ -151,4 +151,4 @@ if __name__ == "__main__":
     if len(sys.argv)<=1:
         sys.exit("usage: %s [pacakge directory]")
     v = detect_version(sys.argv[1])
-    print v
+    print(v)
